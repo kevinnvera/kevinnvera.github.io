@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<link href="\styles\index_styles.css" rel="stylesheet" />
+	<link href="\styles\icons\1.png" rel="shortcut icon" />
+    <title>Ferreteria</title>
+    <meta charset="utf-8">
+  </head>
+  
+  <body>
+	<div class="box-area">
+		<header>
+			<img src="\styles\images\logo_2.jpg" width="470px" class="imagenlogo">  
+			<br/>
+		</header>
+	</div>
+
+	<div class="content-area">
+			<a class= "vinculo" href="list.php">Ver lista de materiales</a>
+				<form action="db_redirection.php" method="post">
+					<h4 class="h4datos">Datos</h4>
+					<p>
+						<label for="nombre">Nombre:</label>
+						<input type="text" name="nombre" id="nombre" class="inputentrada">
+						
+						<label for="precio">Precio:</label>
+						<input type="text" name="precio" id="precio" class="inputentrada">
+			
+						<br/> <br/>
+			
+						<label for="medidas">Medidas:</label>
+						<input type="text" name="medidas" id="medidas" class="inputentrada">
+			
+						<label for="codigo">Código:</label>
+						<input type="text" name="codigo" id="codigo" class="inputentrada">
+			
+						<br/> <br/>
+			
+						<input type="submit" value="Enviar" class="botones">
+						<input type="reset" class="botones">
+					</p>
+				</form>
+	</div>
+  </body>  
+</html>
+

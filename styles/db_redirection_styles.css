@@ -1,0 +1,71 @@
+body{
+    background-color: #00ff5530;
+    margin: 0;
+}
+
+form{
+    background-color: #ffffff;
+    border-radius: 6px;
+    color: rgb(66 66 66);
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+
+}
+
+header {
+	background: #ffffff;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+    margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+.inputentrada{
+    margin: 10px 80px 10px 0;
+    border: solid 1px #ccc;
+    padding:5px;
+    outline: none;
+}
+    
+.h4materiales{
+     padding: 4px;
+}
+
+.h4datos{
+    color: rgb(27, 27, 27);
+    font-size: 1.2em;
+}
+
+.content-area {
+    width: 100%;
+    position: relative;
+    top: 157px;
+    height: 1500px;
+    text-align: center;
+}
+ 
+
+header {
+	background: #ffffff;
+	width: 100%;
+	z-index: 10;
+	position: absolute;
+    margin: 0;
+	padding: 0;
+}
+
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}

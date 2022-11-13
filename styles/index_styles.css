@@ -1,0 +1,74 @@
+body{
+    background-color: #00ff5530;
+    margin: 0;
+}
+
+form{
+    background-color: #ffffff;
+    border-radius: 7px;
+    color: rgb(66 66 66);
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    margin-top: 35px;
+    font-family: monospace;
+
+}
+
+header {
+	background: #ffffff;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+    margin: 0;
+	padding: 0;
+}
+
+.inputentrada{
+    margin: 10px 80px 10px 0;
+    border: solid 1px #ccc;
+    padding:5px;
+    outline: none;
+}
+    
+.h4materiales{
+     padding: 4px;
+    font-family: 'Adidas', Arial, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.h4datos{
+    color: rgb(27, 27, 27);
+    font-size: 1.2em;
+}
+
+.imagenlogo{
+    margin: 0 0 0 400px
+
+}
+
+
+.content-area {
+    width: 100%;
+    position: relative;
+    top: 157px;
+    height: 1500px;
+}
+ 
+.botones{
+    padding: 10px;
+    border: 1px solid #0000004b;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.vinculo{
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+@font-face {
+	font-family: 'Adidas';
+	src: url('Adidas.ttf') format('truetype');
+  }
+
